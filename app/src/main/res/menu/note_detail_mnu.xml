@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/editSave" app:showAsAction="always"
+        android:title="Save"
+        android:onClick="onOptionsItemSelected"/>
+    <item android:id="@+id/editDelete" app:showAsAction="always"
+        android:title="Delete"
+        android:onClick="onOptionsItemSelected"/>
+</menu>
